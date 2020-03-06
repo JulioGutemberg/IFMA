@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Cadastro</title>
+</head>
+
+<!--Um formulário feito dentro de uma tabela-->
+
+<body><h1 align="center"><b>Formulario</b></h1>
+<form>
+    <table width="80%" align="center" border="0" cellspacing="0" cellpadding="5">
+        <!--Area de nome do usuario-->
+        <tr>
+            <td width="30%" align="right"> <b>Nome completo:</b></td>
+            <td><input type="text" size="60" maxlength="80" placeholder="Informe seu nome completo" required name="nome"></td>
+        </tr>
+        <!--E-mail do usuario-->
+        <tr>
+            <td width="30%" align="right"><b>E-mail:</b></td>
+            <td><input type="email" size="60" maxlength="80" placeholder="Informe seu e-mail" required name="email"></td>
+        </tr>
+        <!--Senha do usuario-->
+        <tr>
+            <td width="30%" align="right"><b>Senha</b></td>
+            <td><input type="password" size="20" placeholder="Informe uma senha de acesso" required name="senha"></td>></td>
+        </tr>        
+        <!--Sexo do usuario-->
+        <tr>
+           <td width="30%" align="right"><b>Sexo:</b></td>
+           <td>
+                <input id="sexo_m" type="radio" name="sexo" value="M" /><b>Masculino</b>
+                <input type="radio" name="sexo" value="F" /> <b>Feminino</b>
+                <input type="radio" name="sexo" value="N" checked /> <b>Não informar</b>
+            </td>   
+        </tr>
+        <!--Estado Civil-->
+        <tr>
+            <td width="30%" align="right"><b>Estado Civil</b></td>
+            <td>
+                <select name="estado_civil">
+                    <option></option>
+                    <option>Solteiro(a)</option>
+                    <option>Casado(a)</option>
+                    <option>Divorciado(a)</option>
+                    <option>Viuvo(a)</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+    <br /><br />
+	<center><input type="submit" value="Salvar Dados" />
+	<input type="reset" value="Restaurar Formulário" /></center>
+
+</form>    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Horario</title>
+</head>
+<body>
+    <h1><center>Horario de Aula</center></h1>
+    <table width="80%" align="center" border="1" cellspacing="0" cellpadding="5">
+        <thead><summary align="center"><b>Horarios - Julio 2020.1</b></summary>
+            <tr>
+                <th width="60">HORARIOS</th>
+                <th>SEG</th>
+                <th>TER</th>
+                <th>QUA</th>
+                <th>QUI</th>
+                <th>SEX</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>7:00 - 8:40</b></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><b><center>IA</center></b></td>
+                <td><b><center>IoT</center></b></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><b>8:55 - 10:35</b></td>
+                <td>&nbsp;</td>
+                <td><b><center>IA</center></b></td>
+                <td><b><center>TCCI</center></b></td>
+                <td>&nbsp;</td>
+                <td><b><center>IoT</center></b></td>
+            </tr>
+            <tr>
+                <td><b>10:35 - 12:15</b></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><b><center>TCCI</center></b></td>
+            </tr>
+            <tr>
+                <td><b>13:20 - 15:00</b></td>
+                <td>&nbsp;</td>
+                <td><b><center>EdSII</center></b></td>
+                <td><b><center>PpW</center></b></td>
+                <td>&nbsp;</td>
+                <td><b><center>EdSII</center></b></td>
+            </tr>
+            <tr>
+                <td><b>15:15 - 16:55</b></td>
+                <td><b><center>PF</center></b></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><b>16:55 - 18:35</b></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><b><center>PF</center></b></td>
+                <td>&nbsp;</td>
+                <td><b><center>PpW</center></b></td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
